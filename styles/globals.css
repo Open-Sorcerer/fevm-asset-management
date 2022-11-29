@@ -76,3 +76,48 @@ var {
   width: 40px;
   display: inline-block;
 }
+
+
+/* Form */
+.user-box {
+  position: relative;
+}
+
+.user-box input,
+.user-box textarea {
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  outline: none;
+  background: transparent;
+}
+
+.user-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.user-box input:focus ~ label,
+.user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #220079;
+  font-size: 12px;
+}
+
+.user-box textarea:focus ~ label,
+.user-box textarea:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #220079;
+  font-size: 12px;
+}
