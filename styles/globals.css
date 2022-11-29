@@ -20,3 +20,59 @@
     url("//db.onlinewebfonts.com/t/95cecf452d3208890088a5b4c19c7ecf.ttf") format("truetype"), 
     url("//db.onlinewebfonts.com/t/95cecf452d3208890088a5b4c19c7ecf.svg#Helvetica Neue ME") format("svg");
   }
+
+
+  /*  Draggable Pie */
+  
+* {
+  font-family: Arial, sans-serif;
+}
+
+#piechart-controls {
+  text-align: center;
+
+}
+
+#piechart-instructions {
+  display: inline-block;
+  width: 600px;
+}
+
+
+table {
+  border-collapse: collapse;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+
+  display: inline-block;
+
+}
+
+td, th {
+  border: 1px solid lightgray;
+  padding: 10px;
+  margin: 0;
+
+}
+
+.adjust-button {
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin: 1px;
+}
+
+var {
+  width: 40px;
+  display: inline-block;
+}
