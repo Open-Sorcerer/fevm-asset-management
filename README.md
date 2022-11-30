@@ -1,44 +1,13 @@
-# Next.js + Tailwind CSS Example
+## FEVM Asset Management tool
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+This is a tool to manage assets in the FEVM system. It is a smart contract factory which can create reward splitter on the go. One can use this tool to create a reward splitter for a new asset and then use the splitter to distribute rewards to the asset holders.
 
-## Deploy your own
+One needs to add the addresses of the receivers and the percentage of the reward to be distributed to each receiver. The tool will then create a reward splitter contract and deploy it on the blockchain.
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+The smart contract can receive any type of tokens and distribute them to the receivers. All tokens including the Native Fil Token and any ERC20 token can be collected and distributed.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## Future features
 
-## How to use
+- Add a feature to add new receivers and their percentage of the reward to the existing reward splitter contract.
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
-
-### TODO
-
-- Creation Date should enforce a date - date picker maybe?
-- File uploaded should replace the gray square
-- Assign NFT previews - Images should be the same size, or at least scaled to the same width or height
-- Assign page's NFTPreviewDialog's button should be a "Exit" button. Maybe a red X?
-
-### DONE
-
-- Available underline
-- Clicking outside of the Assign dialog no longer closes
-
-### Presentation Notes
-
-- Setup demo address with oracle ahead of time
-- Upload image to IPFS ahead of time
+- Add a feature to remove a receiver from the reward splitter contract.
