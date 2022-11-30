@@ -10,7 +10,7 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="h-screen">
-        <SplineObj scene={'scene.splinecode'}/>
+        <SplineObj scene={"scene.splinecode"} />
         {/* <SplineObj scene={'https://prod.spline.design/DxJImpAG0NRWpxwQ/scene.splinecode'} /> */}
       </div>
       <div className="h-fit w-full lg:w-1/2 xl:w-1/4 absolute left-2 sm:left-32 top-2 sm:top-10 z-100 text-white flex flex-col gap-5 sm:gap-6 bg-black/10 backdrop-blur-md rounded-lg p-3 sm:p-10 ">
@@ -18,8 +18,8 @@ const Home = () => {
           FEVM Asset Management
         </div>
         <p className="text-black text-xl font-semibold">
-          Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Nulla In Dui Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Nulla In Dui fkd;lasjfkldsjfkldhjs oiefjkldjefkl
-          Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Nulla In Dui 
+          FEVM Asset Management is a decentralized asset management platform
+          built on Filecoin and Filecoin VM.
         </p>
       </div>
 
