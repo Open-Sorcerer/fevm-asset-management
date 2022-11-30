@@ -17,3 +17,4 @@ The smart contract can receive any type of tokens and distribute them to the rec
 
 - Add a feature to add new receivers and their percentage of the reward to the existing reward splitter contract.  
 - Add a feature to remove a receiver from the reward splitter contract.
+- Valist link: [https://bafybeiarpkedntveviwxjmxoaapn63i44iz3y4z4ryn4rp263ev7jlc64y.ipfs.gateway.valist.io/](https://bafybeiarpkedntveviwxjmxoaapn63i44iz3y4z4ryn4rp263ev7jlc64y.ipfs.gateway.valist.io/)
