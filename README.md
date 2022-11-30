@@ -14,6 +14,7 @@ One needs to add the addresses of the receivers and the percentage of the reward
 The smart contract can receive any type of tokens and distribute them to the receivers. All tokens including the Native Fil Token and any ERC20 token can be collected and distributed.
 
 ## Deployments:
+- FVM Contract Address: 0x72DB6ce47C5C9BAb34041672E75c5728c9a078B9
 - Valist link: [https://bafybeiarpkedntveviwxjmxoaapn63i44iz3y4z4ryn4rp263ev7jlc64y.ipfs.gateway.valist.io/](https://bafybeiarpkedntveviwxjmxoaapn63i44iz3y4z4ryn4rp263ev7jlc64y.ipfs.gateway.valist.io/)
 - Spheron Link: [https://fevm-asset-management-30e7c5.spheron.app/](https://fevm-asset-management-30e7c5.spheron.app/)
 
