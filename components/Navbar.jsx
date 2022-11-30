@@ -2,6 +2,7 @@ import Image from "next/image";
 import { useAccount, useConnect, useEnsName, useDisconnect } from "wagmi";
 import { InjectedConnector } from "wagmi/connectors/injected";
 import toast from "react-hot-toast";
+import Link from "next/link";
 
 const Navbar = () => {
   const { address, isConnected } = useAccount();
@@ -110,7 +111,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-end">
         <div className="flex space-x-8 mr-8 text-lg">
-          <a
+          <Link
             href="/create"
             id="create"
             className="hidden md:block relative before:content-[''] before:absolute before:block before:w-full before:h-[1px] 
@@ -120,7 +121,7 @@ const Navbar = () => {
               active:after:content-[''] active:after:absolute active:after:block active:after:w-full active:after:h-[1px]"
           >
             Create
-          </a>
+          </Link>
           <a
             href="/assign"
             className="hidden md:block relative before:content-[''] before:absolute before:block before:w-full before:h-[1px] 

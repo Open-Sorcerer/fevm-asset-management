@@ -52,7 +52,7 @@ function MyApp({ Component, pageProps }) {
     <div suppressHydrationWarning>
       {typeof window !== "undefined" && client && (
         <WagmiConfig client={client}>
-          <div className="bg-gradient-to-r from-[#fdeab1] to-white h-screen">
+          <div>
             <Navbar suppressHydrationWarning />
             <Component {...pageProps} />
             <Toaster />

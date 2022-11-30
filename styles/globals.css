@@ -21,24 +21,6 @@
     url("//db.onlinewebfonts.com/t/95cecf452d3208890088a5b4c19c7ecf.svg#Helvetica Neue ME") format("svg");
   }
 
-
-  /*  Draggable Pie */
-  
-* {
-  font-family: Arial, sans-serif;
-}
-
-#piechart-controls {
-  text-align: center;
-
-}
-
-#piechart-instructions {
-  display: inline-block;
-  width: 600px;
-}
-
-
 table {
   border-collapse: collapse;
 
@@ -86,11 +68,9 @@ var {
 .user-box input,
 .user-box textarea {
   width: 100%;
-  padding: 5px 0;
+  padding: 10px 10px;
   font-size: 16px;
   color: rgb(0, 0, 0);
-  border: none;
-  border-bottom: 1px solid rgb(0, 0, 0);
   outline: none;
   background: transparent;
 }
@@ -99,7 +79,7 @@ var {
   position: absolute;
   top: 0;
   left: 0;
-  padding: 10px 0;
+  padding: 10px 10px;
   font-size: 16px;
   color: rgb(0, 0, 0);
   pointer-events: none;
@@ -108,16 +88,16 @@ var {
 
 .user-box input:focus ~ label,
 .user-box input:valid ~ label {
-  top: -20px;
-  left: 0;
+  top: -5px;
+  left: 10px;
   color: #220079;
   font-size: 12px;
 }
 
 .user-box textarea:focus ~ label,
 .user-box textarea:valid ~ label {
-  top: -20px;
-  left: 0;
+  top: -5px;
+  left: 10px;
   color: #220079;
   font-size: 12px;
 }
