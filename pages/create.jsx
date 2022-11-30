@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 
-import LandingPage from "../components/LandingPage";
+import LandingPage from "../components/Vault";
 const Create = () => {
   return (
     <div className="flex flex-col w-full h-full justify-between">
