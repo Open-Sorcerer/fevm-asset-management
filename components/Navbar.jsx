@@ -69,32 +69,10 @@ const Navbar = () => {
             className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a>Item 1</a>
-            </li>
-            <li tabIndex={0}>
-              <a className="justify-between">
-                Parent
-                <svg
-                  className="fill-current"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-                </svg>
-              </a>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
+              <Link href="/create">Create Vault</Link>
             </li>
             <li>
-              <a>Item 3</a>
+              <a href="/">About Us</a>
             </li>
           </ul>
         </div>
@@ -120,18 +98,18 @@ const Navbar = () => {
               before:transition before:ease-in-out before:duration-300
               active:after:content-[''] active:after:absolute active:after:block active:after:w-full active:after:h-[1px]"
           >
-            Create
+            Create Vault
           </Link>
           <a
-            href="/assign"
+            href="/"
             className="hidden md:block relative before:content-[''] before:absolute before:block before:w-full before:h-[1px] 
               before:bottom-0 before:left-0 before:bg-black
               before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
               before:transition before:ease-in-out before:duration-300"
           >
-            Assign
+            About Us
           </a>
-          <a
+          {/* <a
             href="/claim"
             className="hidden md:block relative before:content-[''] before:absolute before:block before:w-full before:h-[1px] 
               before:bottom-0 before:left-0 before:bg-black
@@ -139,7 +117,7 @@ const Navbar = () => {
               before:transition before:ease-in-out before:duration-300"
           >
             Claim
-          </a>
+          </a> */}
         </div>
         <button
           onClick={() => {

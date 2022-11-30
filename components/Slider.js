@@ -20,8 +20,8 @@ const Slider = (props) => {
   useEffect(() => updated, []);
   return (
     <div className="w-full h-full gap-5 flex-row justify-start items-center">
-      <h1 className="text-xl text-black">{max - min}%</h1>
-      <RangeSlider defaultValue={[initTotal, initTotal + left / 2]} thumbsDisabled={[true, false]} max={100} ref={ref} id="container" onThumbDragEnd={updated} step={1} className="w-2/3" disabled={disabled}/>
+      <h1 className="text-xl text-black mb-2">{max - min}%</h1>
+      <RangeSlider id="range-slider-gradient" defaultValue={[initTotal, initTotal + left / 2]} thumbsDisabled={[true, false]} max={100} ref={ref} onThumbDragEnd={updated} step={1} className="w-2/3" disabled={disabled}/>
 
     </div>
   )
